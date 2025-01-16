@@ -13,7 +13,7 @@ export const projectsConfig: Project[] = [
   {
     id: 1,
     number: "01",
-    title: "Services Website Template",
+    title: "Figma Portfolio",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut est vel lorem elementum gravida. Integer ultricies sollicitudin purus, ac suscipit velit luctus nec. Sed a orci fermentum, venenatis nisi eget, bibendum ligula. Vivamus vel consequat nisl, vel placerat ipsum. Cras tempus orci sed nisi tincidunt sollicitudin. Proin sollicitudin dolor metus, vel feugiat urna aliquam non. Suspendisse varius maximus justo non rutrum. Aliquam erat volutpat. Ut laoreet, augue at condimentum tincidunt, lorem ligula facilisis ante, vel tempor ligula lorem ac nulla. Nulla sollicitudin risus a purus vehicula, eu ultricies tortor viverra.`,
     imageLight: "/projectSection/project1.png",
     imageDark: "/projectSection/project1.png",
