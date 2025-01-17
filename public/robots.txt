@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.justinosagie.com
+Host: https://www.avilareese.com
 
 # Sitemaps
-Sitemap: https://www.justinosagie.com/sitemap.xml
+Sitemap: https://www.avilareese.com/sitemap.xml

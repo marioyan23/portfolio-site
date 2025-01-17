@@ -1,5 +1,5 @@
 export const contactConfig = {
-  email: "example@example.com",
+  email: "avila.reese.ma@gmail.com",
   description:
-    "I strive to combine creativity and technical expertise to build user-friendly, impactful, and memorable digital experiences.",
+    "I strive to push the boundaries of creativity, crafting dynamic, captivating, and visually professional design solutions",
 };

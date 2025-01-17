@@ -13,7 +13,7 @@ const Navbar = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <nav className="h-navbar-height fixed start-0 top-0 z-20 w-full border-b border-primary-neutral bg-primary-white">
+    <nav className="fixed start-0 top-0 z-20 h-navbar-height w-full border-b border-primary-neutral bg-primary-white">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
         <a
           href="#home"
@@ -25,8 +25,8 @@ const Navbar = () => {
         <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
           {/* Resume Button */}
           <a
-            href="/resume/resume_Justin_Osagie.pdf"
-            download="Justin-Osagie-Resume.pdf"
+            href="/resume/CV Avila Reese_bw.pdf"
+            download="CV Avila Reese_bw.pdf"
           >
             <Button size={"medium"} variant={"default"}>
               <span className="mr-2">Resume</span>
