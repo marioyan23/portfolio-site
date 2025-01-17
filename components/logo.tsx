@@ -6,7 +6,7 @@ const Logo: React.FC = () => {
     <div className="flex items-center space-x-3 rtl:space-x-reverse">
       {/* SVG Image */}
       <Image
-        src="/logo/logo 2.svg"
+        src="/logo/jo_logo.svg"
         alt="Logo"
         className="size-8 object-contain"
         height={32}
