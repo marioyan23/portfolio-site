@@ -18,7 +18,7 @@ export const projectsConfig: Project[] = [
     imageLight: "/projectSection/project1_new.png",
     imageDark: "/projectSection/project1_new.png",
     reverse: false,
-    link: "/",
+    link: "/figma",
   },
   {
     id: 2,
