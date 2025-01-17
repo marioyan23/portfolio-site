@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "NeueMachina";
+  src: url("/fonts/NeueMachina-Regular.otf") format("otf");
+  font-weight: 400; /* Adjust weights */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueMachina";
+  src: url("/fonts/MyCustomFont-Ultrabold.otf") format("otf");
+  font-weight: 700;
+  font-style: normal;
+}
