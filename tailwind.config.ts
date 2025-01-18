@@ -33,7 +33,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["Sora", "sans-serif"],
-        machina: ["NeueMachina", "sans-serif"],
+        neuemachina: ['var(--font-neuemachina)'],
       },
       fontSize: {
         "display-outlined": [

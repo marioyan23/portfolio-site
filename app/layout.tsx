@@ -6,6 +6,15 @@ import { Sora } from "next/font/google";
 
 const sora = Sora({ subsets: ["latin"] });
 
+import localFont from 'next/font/local';
+
+const myCustomFont = localFont({
+  src: '../public/fonts/NeueMachina-Ultrabold.otf', // path to the local font file
+  weight: '700',
+  style: 'normal',
+  variable: '--font-neuemachina',
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -30,7 +39,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className={sora.className}>
+      <body className={`${myCustomFont.variable} ${sora.className}`}>
         {children}
         <Analytics />
         <SpeedInsights />
